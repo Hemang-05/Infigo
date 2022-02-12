@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Infigo:Home</title>
+
+
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" >
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"> 
+  </head>
+  <body class="body-1">
+<!-- idhr upr latakne wla system -->
+ 
+    <nav>
+      <div class="navigation">
+         <!-- <a href="#" class="logo" id="logo" >INFIGO</a> -->
+             <!-- <img src="images/logo2.png" style="height: 59px; width: 148px;" alt="">  -->
+             <div onclick="window.location.href = 'index.html';"><div class="before-scroll" id="logo">&nbsp</div></div> 
+       
+        <!-- <div class="search-bar">
+          <div class="search-input">
+           <input type="text" placeholder="search for products">
+           <a href="#" class="search-cancel"><i class="fas fa-times"></i></a>
+           </div>
+         </div> -->
+      <div class="right-menu">
+      <ul>
+        <li id="not">
+          <div class="search-container">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search" style="color:#555555;"></i></button>
+          </div>
+      </li>
+          <!-- <a href="#" class="search"><i class="fa fa-search" aria-hidden="true"></i></a> -->
+          <li><a href="#" class="user"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"><span class="num-cart">0</span></i></a></li>
+
+        </ul>
+      </div>
+      </div>
+    
+      
+   </nav>
+    
+      
+     <div class="form">
+       <div class="login-form">
+         <a href="#" class="form-cancel"><i class="fas fa-times"></i>
+         </a>
+         <strong>Log In</strong>
+         <form >
+           <input type="email" name="email" placeholder="Example@gmail.com" required>
+           <input type="password" name="password" placeholder="Password" required>
+           <input type="submit" value="Log In">
+         </form>
+         <div class="form-btns">
+           <a href="#" class="forget">Forget your password?</a>
+           <a href="#" class="sign-up-btn">Create Account</a>
+         </div>
+
+       </div>
+
+       <div class="sign-up-form">
+         <a href="#" class="form-cancel"><i class="fas fa-times"></i>
+         </a>
+         <strong>Sign Up</strong>
+         <form >
+           <input type="text" name="fullname" placeholder="Fullname" required>
+           <input type="email" name="email" placeholder="Example@gmail.com" required>
+           <input type="password" name="password" placeholder="Password" required>
+           <input type="submit" value="Sign up">
+         </form>
+         <div class="form-btns">
+           <a href="#" class="already-account">Already have an Account?</a>
+         </div>
+
+       </div>
+
+     </div>
+     <!-- full slider ya carousel kuch b bol lo -->
+
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active " data-interval="4000">
+        <img class="d-block w-100" src="images/slide.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item" data-interval="4000">
+        <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item " data-interval="4000">
+        <img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- jo 4 categroy liye h -->
+
+  <section class="featured-categories" id="featured">
+    <div class="feature-heading"><h2>Featured categroy</h></div>
+    <div class="container">
+      <div class="row-2">
+        <div class="col-md-3" onclick="window.location.href = 'masks.html';">
+        <img src="images/dispmask.jfif" ><span>Masks</span>
+        </div>
+        <div class="col-md-3" onclick="window.location.href = 'devices.html';">
+        <img src="images/oxi1.jfif"><span>Oximeter</span>
+        </div>
+        <div class="col-md-3" onclick="window.location.href = 'gloves.html';">
+        <img src="images/glove2.jfif"><span>Gloves</span>
+        </div>
+        <div class="col-md-3" onclick="window.location.href = 'sanitizer.html';">
+        <img src="images/senitizer3.jfif"><span>Sanitizer</span>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <div class="sidenav" id="navbar-top" >
+     <!-- <div class="container-1"> -->
+      <!-- <ul class="menu"> -->
+        <ul>
+        <li><a href="#logo">Home</a></li>
+        <br>
+        
+        <li><a href="#Gloves">Gloves</a></li>
+        <br>
+        
+        <li><a href="#Sanitizer">sanitizer</a></li>
+        <br>
+        
+        <li><a href="#Masks">Masks</a></li>
+        <br>
+        
+        <li><a href="#Devices">Devices</a></li>
+        <br>
+
+        <li><a href="#Medicine">Medicine</a></li>
+    
+      </ul>
+
+
+
+  </div>
+
+
+  <!--GRID-->
+  
+
+  <div class="container-fluid-1">
+    <!-- MASKK -->
+    <div class="row-1" id="Mask">
+      <div class="owl-carousel owl-theme" style="z-index: 0;">
+      <div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/dispmask.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/brandclick.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/hoserymask.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/hoserymask2.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/dispmask.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+     
+  </div>
+  </div>
+
+  <div style="height:10ex;"></div>
+<!-- Senitizer -->
+<div class="row-1" id="Senitizer">
+  <div class="owl-carousel owl-theme" style="z-index: 0;">
+      <div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/senitizer1.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/senitizer2.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/senitizer3.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/senitizer 4.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/senitizer5.jfif" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+      <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="" class="imgfloat" class="hover-shadow"></div>
+      <br> 
+      <p class="text-grid">disposal Mask<br>rate</p>
+             <div class="middle">
+               <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+             </div>
+           </div></div></div>
+     
+</div>
+
+</div>
+<div style="height:10ex;"></div>
+<!------ Gloves----->
+<div class="row-1" id="Gloves">
+  <div class="owl-carousel  owl-theme" style="z-index: 0;">
+  <div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/glove1.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/glove2.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/glove3.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/glove4.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/glove5.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+ 
+</div>
+</div>
+<div style="height:10ex;"></div>
+<!---- Instrument ----->
+<div class="row-1" id="Instruments">
+  <div class="owl-carousel owl-theme" style="z-index: 0;">
+  <div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/oxi1.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/oxi2.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/therma1.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/theram2.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/therma3.jfif" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+  <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="" class="imgfloat" class="hover-shadow"></div>
+  <br> 
+  <p class="text-grid">disposal Mask<br>rate</p>
+         <div class="middle">
+           <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+         </div>
+       </div></div></div>
+ 
+</div>
+</div>
+<div style="height:10ex;"></div>
+<!-- Medicine -->
+<div class="row-1" id="Medicine">
+<div class="owl-carousel owl-theme" style="z-index: 0;">
+    <div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/para1.jfif" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div>
+    <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/dolo1.jfif" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div></div>
+    <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/azithro1.jfif" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div></div>
+    <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/azithro2.jfif" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div></div>
+    <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="images/coronil.jfif" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div></div>
+    <div class="item"><div class="item">  <div class="col-sm" id="grid-background"><div class="bg-image hover-zoom"><img src="" class="imgfloat" class="hover-shadow"></div>
+    <br> 
+    <p class="text-grid">disposal Mask<br>rate</p>
+           <div class="middle">
+             <div class="text"><i class="fa fa-fa1 fa-shopping-cart" aria-hidden="true"></i>  <i onclick="myFunction(this)" class="fa fa-fa1 fa-thumbs-up"></i></div>
+           </div>
+         </div></div></div>
+   
+</div>
+
+</div>
+
+</div>
+    <!--services------------------------->
+   <section class="services">
+       <!--services-box---------->
+       <div class="services-box">
+           <i class="fas fa-shipping-fast"></i>
+           <span>Free Shipping</span>
+           <p>Baap ki company nhi na. Paisa do shipping lo</p>
+       </div>
+       <!--services-box---------->
+       <div class="services-box">
+           <i class="fas fa-headphones-alt"></i>
+           <span>Support 24/7</span>
+           <p>We support 4-5 ghanta hi de paenge. Itte khaali nhi na</p>
+       </div>
+       <!--services-box---------->
+       <div class="services-box">
+           <i class="fas fa-sync"></i>
+           <span>100% Money Back</span>
+           <p>Loda nhi wapis krenge paisa. Maa chudao</p>
+       </div>
+      
+      
+
+      <footer class="footer">
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+              <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter" style="color:#ffc371"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook" style="color:#ffc371"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram" style="color:#ffc371"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest" style="color:#ffc371"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo" style="color:#ffc371"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted">For Women</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">For Men</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Stores</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Our Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><a href="#" class="text-muted user">Login</a></li>
+                <li class="mb-2"><a href="#" class="text-muted register">Register</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Wishlist</a></li>
+                <li class="mb-2"><a href="#" class="text-muted">Our Products</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+              <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+              <div class="p-1 rounded border">
+                <div class="input-group">
+                  <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                  <div class="input-group-append">
+                    <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Copyrights -->
+        <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© 2021 INFIGO All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+    <script src="jq.js" charset="utf-8"></script>
+  </body>
+</html>
